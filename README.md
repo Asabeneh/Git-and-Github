@@ -94,32 +94,35 @@ Here you have the basic git commands which you may be useful:
 git --version //to check the version
 git help  // To get help from git
 git help commit // To get commit help
+
 git init  // Initilaizing git repository on local machine
+
 git config --list // to check what is configured
 git config // to get information about configuration
 git config --global user.name "username" //Configuring git user name
 git config --global user.email "email" //Configuring git user email
+
 git add filename
 git add first.txt # adding only one file
 git add second.txt third.txt // to add multiple file
 git add . //To add all the files and folders to the staging area
-git commit -m "Message" // To get a copy of the file before change or the snapshot of the file at that time
+
+git commit -m 'commit message' // after staging using add
+git commit -a -m 'commit message' // staging using a and commiting
+git commit -am 'commit message' // staging and committing
+
+git commit -am "Message" #Grab every thing in the working copy and -a allows to skip the staging copy
 git log  // To see the history on the repository
 git log --author ="name" #To check change by specific user
 git status  //To check changes or status of the file
 
-git commit -m "Message"
-git commit -am "Message" #Grab every thing in the working copy and -a allows to skip the staging copy
+
 git diff #Compare workin copy in the repository
 git diff --staged # Compare files in the staging area
 
-git log --author ="name"
-git commit -m "Message"
-git diff --staged
 git rm filename
 git mv filename1 filename2
 git mv filename foldernam/filename2
-git add .
 git commit -am "This skip the stage process"
 git checkout -- filename #To get working copy back
 git reset  HEAD filename // removes from the staging area/unstage
