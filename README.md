@@ -4,7 +4,14 @@ A version control is a means of recording changes to a file or set of files over
 
 ## 1. Install Git and Signup on Github
 * Git:
-    Install[git](https://git-scm.com/downloads)
+    Install [git](https://git-scm.com/downloads)
 * Github
     Signup on [github](https://github.com/)
-## 
+## 2. Create a local git repository
+On this step your will create a folder(directory) for your project. A local repository is a project or a folder which is on your computer
+Go to start and type git bash. On the terminal:
+```shell
+    mkdir project_name
+    cd project_name
+```
+
