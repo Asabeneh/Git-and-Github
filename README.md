@@ -1,6 +1,6 @@
 # Introduction to Git and Github
-Git is version control tool. In one way or the other you may need to use git and github.
-You need to use git and github either to store your project on the cloud or to collabrate with your team.
+Git is a version control tool. In one way or the other you may need to use a git and a github.
+You need to use git and github either to store your projects on the cloud or to collabrate with your team.
 A version control is a means of recording changes to a file or set of files over time so that you can recall specific versions later. 
 
 ## 1. Install Git and Signup on Github
@@ -16,7 +16,7 @@ git config --global user.email 'youremail'
 git config --global color.ui 'auto
 ```
 ## 3. Create a local git repository
-On this step your will create a folder(directory) for your project. A local repository is a project or a folder which is on your computer.
+On this step your will create a folder (directory) for your project. A local repository is a project or a folder which is on your computer.
 Go to start and type git bash. Git terminal will popup. On the terminal write:
 ```shell
 mkdir project_name
@@ -29,7 +29,8 @@ After creating a new local repository or in an existing local repository, intiti
 ```
 Once, the repository is intialized git tracks the changes in the files and folders.
 ## 5. Add file to the staging area
-File can be added to the stage area in multiple ways. To add single file
+File can be added to the stagging area in multiple ways. 
+To add single file
 ```shell
    git add filename
 ```
@@ -37,7 +38,6 @@ To add multiple files
 ```shell
    git add filename1 filename2
 ```
-
 To add all files and folders at once
 ```shell
    git add .
@@ -47,16 +47,14 @@ To add all files and folders at once
     git reset HEAD filename
 ```
 ## 7. Commit the changes
-Commiting means taking a snapshot of the copy of your file and archiving it for use if it is needed.
+Commiting means taking a snapshot or a copy of your file at that point of time.
 ```shell
    git commit -m 'your message'
 ```
-
 Your commit message has to be associated with the changes or modification you make. 
-
 ## 8. Creating a branch
-
-You built an awesome application. You like to keep this awesome application as it is and you like to add some features. This is the time, you need branching the master. Branch is the copy the master at branching instant. After branching the branch and the master they don't see each other.
+You built an awesome application. You like to keep this awesome application as it is and you like to add some features.
+This is the time, you need branching the master. Branch is the copy of the master at branching instant. After branching the branch and the master they don't see each other.
 
 To create branch:
 ```shell
@@ -74,7 +72,7 @@ To list down the branchs:
 
 ## 9. Create Repository on Github
 
-Go to [git](https://git-scm.com/downloads) and create  a repository by click the plus icon on the top right corner. 
+Go to [github](https://github.com/) and create  a repository by click the plus icon on the top right corner. 
 ## 10. Connecting git with remote repository
 In this step you will connect your local git repository with your remote github repository
 ```shell
@@ -89,7 +87,7 @@ Commits if you have any changes and be ready to push your files to your remote g
 git push -u origin master
 
 ## Git cheatsheet:
-Here you have the basic git commands which you may be useful:
+Here you have the basic git commands which might be useful:
 ```shell
 git --version //to check the version
 git help  // To get help from git
