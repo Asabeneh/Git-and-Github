@@ -1,0 +1,41 @@
+git help #Git help
+git help commit
+git init # Initilaizing git repository
+git config --global user.name "username" #Configuring git user name
+git config --global user.email "email" #Configuring git user email
+git config --list
+git config
+git config --global user.email
+git config --global user.name
+git --version
+git add . #To add multiple files to the staging area
+git commit -m "Message" #To get a copy of the file before change
+git log # Change history
+git log --author ="name" #To check change by specific user
+git status # To check changes or status of the file
+git add second.txt # adding only one file
+git commit -m "Message"
+
+git commit -am "Message" #Grab every thing in the working copy and -a allows to skip the staging copy
+git diff #Compare workin copy in the repository
+git diff --staged # Compare files in the staging area
+
+git log
+git log --author ="name"
+git status
+git add filename
+git commit -m "Message"
+git diff --staged
+git rm filename
+
+git mv filename1 filename2
+git mv filename foldernam/filename2
+git add .
+git commit -am "This skip the stage process"
+git checkout -- filename #To get working copy back
+git reset  HEAD filename // removes from the staging area/unstage
+git checkout 01e7ba -- filename # Tracking the differentversion of the project
+git remote add anyname repositoryUrl
+git push -u nickename master // to push the file into github
+git checkout 01e7ba -- filename
+git remote add anyname repositoryUrl

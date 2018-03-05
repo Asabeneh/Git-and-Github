@@ -44,7 +44,9 @@ To add all files and folders at once
    git add .
 ```
 ## 5. Unstage a file
-
+```shell
+    git reset HEAD filename
+```
 ## 6. Commit the changes
 Commiting means taking a snapshot of the copy of your file and archiving it for use if it is needed.
 ```shell
