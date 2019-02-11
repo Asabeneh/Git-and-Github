@@ -131,6 +131,10 @@ If this is step is passed without error, you are ready to push it to your remote
 
 Commits if you have any changes and be ready to push your files to your remote github repository
 git push -u origin master
+```shell
+    git push -u origin master
+
+```
 
 ## 12. Merge
 
@@ -151,7 +155,7 @@ If your team merge new features to the develop. Then you will be behind, now you
     git pull origin develop
     git checkout develop
     git merge yourbranch
-    git push -u origin master
+    git push -u origin develop
 
 
 ```
