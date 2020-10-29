@@ -87,7 +87,7 @@ To create branch:
 - Only to create branch
 
 ```shell
-    git checkout  branchname
+    git branch branchname
 
 ```
 
