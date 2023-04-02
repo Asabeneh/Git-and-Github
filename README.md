@@ -3,6 +3,7 @@
 Git is a version control tool. In one way or the other you may need to use a git and a github.
 You need to use git and github either to store your projects on the cloud or to collabrate with your team.
 A version control is a means of recording changes to a file or set of files over time so that you can recall specific versions later.
+If you a visual learner you may check this <a href="https://www.youtube.com/watch?v=9cCApTLb_Io&list=PLbvhRHYrmshSCAHZbibqh_px_LxnU54dk&ab_channel=Washera">YouTube lesson</a>
 
 ## 1. Install Git and Signup on Github
 
